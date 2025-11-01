@@ -1,0 +1,11 @@
+/frontend-react/node_modules
+/frontend-react/build
+/frontend-react/.env
+
+
+/backend-laravel/vendor
+/backend-laravel/node_modules
+/backend-laravel/storage
+/backend-laravel/.env
+/backend-laravel/public/hot
+/backend-laravel/public/storage
