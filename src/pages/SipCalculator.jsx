@@ -34,7 +34,6 @@ const SipCalculator = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      // ✅ API call to Laravel backend
       const response = await api.post("/goals/sip", formData);
       setResult(response.data.summary);
     } catch (error) {
